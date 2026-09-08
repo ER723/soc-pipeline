@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>SOC Pipeline Architecture</title>
+<style>
+body{margin:0;background:#0b1210;color:#e7f3ee;font-family:sans-serif;padding:30px;}
+h1{font-size:22px;}
+.flow{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;}
+.node{background:#111b18;border:1.5px solid #1f2f2a;border-radius:10px;padding:14px;width:220px;}
+.node.free{border-top:3px solid #33e6a6;}
+.node.cloud{border-top:3px solid #f5b942;}
+.node.human{border-top:3px solid #6ea8ff;}
+.title{font-weight:700;font-size:14px;margin-bottom:4px;}
+.sub{font-size:11px;color:#8fa89e;}
+.links{margin-top:24px;font-size:13px;}
+.links a{color:#6ea8ff;}
+</style></head>
+<body>
+<h1>Zero-Cost Automated SOC Escalation Pipeline</h1>
+<div class="flow">
+<div class="node free"><div class="title">01 · Log Sources</div><div class="sub">Wazuh Agent, host Mac</div></div>
+<div class="node free"><div class="title">02 · Correlation Engine</div><div class="sub">Wazuh Manager, manager-only mode</div></div>
+<div class="node free"><div class="title">03 · Watcher Script</div><div class="sub">Python + launchd, HMAC-signs escalations</div></div>
+<div class="node cloud"><div class="title">04 · Cloud Webhook Receiver</div><div class="sub">Apps Script, signature-verified</div></div>
+<div class="node human"><div class="title">05 · T2 Analyst</div><div class="sub">Restricted Google Sheet</div></div>
+<div class="node free"><div class="title">06 · Rule Tuning</div><div class="sub">Weekly report from real decisions</div></div>
+</div>
+<div class="links">
+<a href="https://github.com/ER723/Automated-SOC-Tier-1-to-Tier-2-Escalation-Pipeline">View documentation on GitHub</a><br>
+<a href="portfolio-test-results.md">Test results</a> ·
+<a href="technique-coverage.md">Technique coverage</a> ·
+<a href="known-limitations.md">Known limitations</a>
+</div>
+</body></html>
