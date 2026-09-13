@@ -40,6 +40,7 @@ Three real, MITRE ATT&CK-mapped techniques were tested against the live pipeline
 | LaunchAgent persistence (official Atomic Red Team artifact) | T1543.001 | Decision logic proven separately; FIM new-file detection not achieved — documented gap |
 
 **Full test methodology and evidence:** [`docs/portfolio-test-results.md`](docs/portfolio-test-results.md)
+**Live re-verification log (outage found, diagnosed, and fixed):** [`docs/live-verification-log.md`](docs/live-verification-log.md)
 **What this pipeline can and can't detect:** [`docs/technique-coverage.md`](docs/technique-coverage.md)
 **Operational drawbacks and limitations:** [`docs/known-limitations.md`](docs/known-limitations.md)
 
