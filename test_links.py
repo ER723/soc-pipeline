@@ -21,7 +21,7 @@ def get_relative_links(file_path):
     links = []
     for match in LINK_PATTERN.finditer(text):
         target = match.group(2)
-        if target.startswith("http://") or target.startswith("https://") or target.startswith("#"):
+        if target.startswith(("http://", "https://", "#")):
             continue
         links.append(target)
     return links
