@@ -1,3 +1,6 @@
+[![Live-Verified](https://img.shields.io/badge/tested-live--verified-brightgreen)](docs/live-verification-log.md)
+[![Link Check](https://github.com/ER723/soc-pipeline/actions/workflows/link-check.yml/badge.svg)](https://github.com/ER723/soc-pipeline/actions)
+
 # Zero-Cost Automated SOC Escalation Pipeline
 
 A fully automated, $0-cost, lightweight security operations pipeline that replaces manual Tier-1 SOC analyst triage with rule-based automation — running on a single 8GB RAM Intel Mac. Tested end-to-end against real, MITRE ATT&CK-mapped attack techniques, not just designed on paper.
