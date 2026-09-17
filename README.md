@@ -8,6 +8,8 @@ A fully automated, $0-cost, lightweight security operations pipeline that replac
 
 ## Architecture
 
+![Zero-Cost Automated SOC Escalation Pipeline architecture diagram](docs/architecture-preview.jpg)
+
 ```mermaid
 flowchart LR
     A["01 . Log Sources<br/>Wazuh Agent on host Mac<br/>enrollment password"] --> B["02 . Correlation Engine<br/>Wazuh Manager, manager-only<br/>localhost-only ports"]
