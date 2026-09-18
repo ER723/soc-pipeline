@@ -1,5 +1,6 @@
 [![Live-Verified](https://img.shields.io/badge/tested-live--verified-brightgreen)](docs/live-verification-log.md)
 [![Link Check](https://github.com/ER723/soc-pipeline/actions/workflows/link-check.yml/badge.svg)](https://github.com/ER723/soc-pipeline/actions)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/ER723/soc-pipeline/badge)](https://scorecard.dev/viewer/?uri=github.com/ER723/soc-pipeline)
 
 # Zero-Cost Automated SOC Escalation Pipeline
 
