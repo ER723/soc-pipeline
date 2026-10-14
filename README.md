@@ -50,6 +50,7 @@ Three real, MITRE ATT&CK-mapped techniques were tested against the live pipeline
 **Live re-verification log (outage found, diagnosed, and fixed):** [`docs/live-verification-log.md`](docs/live-verification-log.md)
 **What this pipeline can and can't detect:** [`docs/technique-coverage.md`](docs/technique-coverage.md)
 **Operational drawbacks and limitations:** [`docs/known-limitations.md`](docs/known-limitations.md)
+**Sample Tier-1 incident report (from the live sudo brute-force test):** [`docs/sample-incident-report.md`](docs/sample-incident-report.md)
 
 ## What this does
 
